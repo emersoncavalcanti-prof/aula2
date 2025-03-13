@@ -8,14 +8,14 @@
 <body>
 
 <form>
-<table>
+<table border="1">
     <tr>
         <td><label for="nome">Nome</label></td>
-        <td><input type="text" name="nome"></td>
+        <td><input type="text" name="nome" required></td>
     </tr>
     <tr>
         <td><label for="email">Email</label></td>
-        <td><input type="text" name="email"></td>
+        <td><input type="email" name="email" required></td>
     </tr>
     <tr>
         <td><label for="telefone">Telefone</label></td>
@@ -24,6 +24,16 @@
     <tr>
         <td><label for="senha">Senha</label></td>
         <td><input type="password" name="senha"></td>
+    </tr>
+    <tr>
+        <td>Cidade</td>
+        <td>
+        <select name="" id="">
+            <option value="">Escolha uma cidade</option>
+            <option value="Limoeiro">Limoeiro</option>
+            <option value="Carpina">Carpina</option>
+        </select>
+    </td>
     </tr>
     <tr>
         <td colspan="2" align="center">
