@@ -1,4 +1,8 @@
-h1{
-    color: red;
-    font-size: 100px;
+.texto-verde{
+    color: green;
 }
+
+.texto-negrito{
+    font-weight: bold;
+}
+
