@@ -18,15 +18,20 @@ nav{
     text-align: center;
 }
 
+.container{
+    display: flex;
+    gap: 5px;
+}
+
 section{
-    width: 100%;
+    width: 70%;
     height: 200px;
     background-color: #797979;
     color: #FFF;
     text-align: center;
 }
 aside{
-    width: 100%;
+    width: 30%;
     height: 200px;
     background-color: #797979;
     color: #FFF;
